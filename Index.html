@@ -1,0 +1,195 @@
+﻿<!DOCTYPE HTML>
+<!--[if lt IE 7 ]><html lang="en-MY" xml:lang="en-MY" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-MY" xml:lang="en-MY" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-MY" xml:lang="en-MY" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en-MY" xml:lang="en-MY" xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>UiTM e-Arabisasi™ - Project's Backend</title>
+    <meta name="description" content="A Malay-Jawi-Arabic Transliteration Algorithm by Assoc. Prof. Dr. Janudin Bin Sardi Ph. D. (UiTM). Copyright &copy; 2020 Dr Janudin Sardi (UiTM Shah Alam). All rights reserved." />
+    <meta name="keywords" content="UiTM, e-Arabisasi, Dr. Janudin" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://earabisasi.syafiqhadzir.dev/" />
+
+    <!-- Website's Author & Publisher
+    ================================================== -->
+
+    <meta name="author" content="Syafiq Hadzir (Alexandrov), webmaster@syafiqhadzir.dev" />
+    <meta name="contact" content="webmaster@syafiqhadzir.dev" />
+    <meta name="reply-to" content="webmaster@syafiqhadzir.dev" />
+    <link type="text/plain" rel="author" href="https://syafiqhadzir.dev/humans.txt" />
+    <meta name="subject" content="Project's Backend" />
+    <meta name="copyright" content="Creative Commons Attribution Share Alike 4.0 International (CC-BY-SA 4.0)" />
+    <meta name="language" content="en-MY" />
+    <meta name="revised" content="Friday, July 17th, 2020, 18:12" />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <link rel="publisher" href="https://syafiqhadzir.dev/" />
+
+    <!-- Website Icons
+    ================================================== -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="194x194" href="Favicons/favicon-194x194.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="Favicons/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicons/favicon-16x16.png" />
+    <link rel="manifest" href="Favicons/site.webmanifest" />
+    <link rel="mask-icon" href="Favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <meta name="msapplication-TileImage" content="Favicons/mstile-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Stylesheets
+    ================================================== -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+
+    <link rel="stylesheet" href="Content/Site.min.css" />
+
+    <!--[if lt IE 9]>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+            integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous">
+          </script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"
+            integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous">
+          </script>
+        <![endif]-->
+    <!-- Cookie Consent -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css"
+          integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js"
+            integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous">
+    </script>
+
+    <!-- Cookies
+    ================================================== -->
+
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#eaf7f7",
+                        "text": "#5c7291"
+                    },
+                    "button": {
+                        "background": "#56cbdb",
+                        "text": "#ffffff"
+                    }
+                },
+                "showLink": false,
+                "theme": "classic",
+                "position": "bottom-right"
+            })
+        });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102964710-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-102964710-6');
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1 class="center"><a href="/" rel="nofollow noreferrer">UiTM e-Arabisasi&trade;</a></h1>
+            <h3 id="header-3" class="center">A Malay-Jawi-Arabic Transliteration Algorithm</h3>
+            <br />
+            <img src="Images/logo-min.jpg" class="logo" alt="Logo" />
+
+            <p class="center">
+                <img src="https://img.shields.io/badge/3.5.1-blue?labelColor=grey&cacheSeconds=MaxAge&style=flat&logo=jquery" />
+                &nbsp;
+                <a href="https://validator.swagger.io/validator/debug?url=https%3A%2F%2Fearabisasi.syafiqhadzir.dev%2Fswagger%2Fdocs%2Fv1" rel="nofollow noreferrer">
+                    <img src="https://img.shields.io/badge/valid-blue?labelColor=grey&cacheSeconds=MaxAge&style=flat&logo=openapi%20initiative" />
+                </a>
+                &nbsp;
+                <img src="https://img.shields.io/badge/3.28.0-blue?labelColor=grey&cacheSeconds=MaxAge&style=flat&logo=swagger" />
+            </p>
+
+            <ul class="downloads center">
+                <li><a href="#" rel="nofollow noreferrer">Download <strong>JSON</strong></a></li>
+                <li><a href="#" rel="nofollow noreferrer">Download <strong>SQL</strong></a></li>
+                <li><a href="https://earabisasi.syafiqhadzir.dev/swagger/" rel="nofollow noreferrer">View On <strong>Swagger</strong></a></li>
+            </ul>
+        </header>
+        <section>
+
+            <hr />
+
+            <h2 id="transliteration_sandbox">Transliteration Sandbox</h2>
+            <div id="converter">
+
+                <textarea id="inp_txt" placeholder="Input (Latin)"></textarea>
+
+                <h3 id="algorithm_based_technique">Algorithm-Based Technique</h3>
+
+                <textarea id="prev_label" placeholder="Output (Algorithm)" class="arabic" readonly></textarea>
+
+                <h3 id="api_guided_e_arabisasi">API-Guided e-Arabisasi</h3>
+
+                <textarea id="outputWord" placeholder="Output (e-Arabisasi)" class="arabic" readonly></textarea>
+            </div>
+
+            <hr />
+
+            <h2 id="changelog">Changelog</h2>
+
+            <h3 id="version">v1.0.0 > 2020-07-17</h3>
+
+            <ul>
+                <li>
+                    Initial Release
+                </li>
+            </ul>
+
+            <p><a href="https://github.com/UiTM-eArabisasi/Project-Wiki/releases" rel="nofollow noreferrer">Complete Changelogs</a></p>
+        </section>
+
+        <footer>
+            <p>
+                <small>
+                    Researched by <a href="mailto:janudin@gmail.com" rel="nofollow noreferrer">Dr. Janudin Sardi Ph.D</a>
+                    <br />
+                    Developed by <a href="https://syafiqhadzir.dev" rel="nofollow noreferrer">Syafiq Hadzir</a>
+                    <br />
+                    All Rights Reserved to Dr Janudin Sardi (UiTM)
+                    <br />
+                    Last Update: July 17<sup>th</sup>, 2020
+                </small>
+            </p>
+        </footer>
+    </div>
+
+    <!-- JavaScripts
+    ================================================== -->
+
+    <script src="Scripts/Site.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"
+            integrity="sha256-dsOXGNHAo/syFnazt+KTBsCQeRmlcW1XKL0bCK4Baec=" crossorigin="anonymous">
+    </script>
+    <script src="Scripts/Functions.min.js"></script>
+    <script src="Scripts/Charset.js"></script>
+</html>
