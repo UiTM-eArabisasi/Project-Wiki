@@ -125,12 +125,37 @@
                 &nbsp;
                 <img src="https://img.shields.io/badge/3.28.0-blue?labelColor=grey&cacheSeconds=MaxAge&style=flat&logo=swagger" />
             </p>
+            
+            <p class="center">
+            <a class="github-button" href="https://github.com/UiTM-eArabisasi/Charset.js" rel="nofollow noreferrer"
+               data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"
+               aria-label="Follow UiTM-eArabisasi/Charset.js on GitHub">Follow</a>
+            &nbsp;
+            <a class="github-button" href="https://github.com/UiTM-eArabisasi/Charset.js/subscription" rel="nofollow noreferrer"
+               data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"
+               aria-label="Watch UiTM-eArabisasi/Charset.js on GitHub">Watch</a>
+            &nbsp;
+            <a class="github-button" href="https://github.com/UiTM-eArabisasi/Charset.js" rel="nofollow noreferrer"
+               data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"
+               aria-label="Star UiTM-eArabisasi/Charset.js on GitHub">Star</a>
+            </p>
+
+            <p class="view">
+                <a href="https://github.com/UiTM-eArabisasi">
+                    View the Project on
+                    GitHub<br /><small>SyafiqHadzir/UiTM-eArabisasi</small>
+                </a>
+            </p>
 
             <ul class="downloads center">
                 <li><a href="#" rel="nofollow noreferrer">Download <strong>JSON</strong></a></li>
                 <li><a href="#" rel="nofollow noreferrer">Download <strong>SQL</strong></a></li>
                 <li><a href="https://earabisasi.syafiqhadzir.dev/swagger/" rel="nofollow noreferrer">View On <strong>Swagger</strong></a></li>
             </ul>
+            
+            <p class="view">
+                <a href="https://academic.syafiqhadzir.dev/" rel="noreferrer nofollow">Developer's Website</a>
+            </p>
         </header>
         <section>
 
@@ -149,6 +174,12 @@
 
                 <br />
                 
+                <h3 id="api_guided_jawi_transliteration">API-Guided Jawi Transliteration</h3>
+
+                <textarea id="outputJawi" placeholder="Output (Jawi)" class="arabic" readonly></textarea>
+
+                <br />
+                
                 <h3 id="api_guided_e_arabisasi">API-Guided e-Arabisasi</h3>
 
                 <textarea id="outputWord" placeholder="Output (e-Arabisasi)" class="arabic" readonly></textarea>
@@ -158,14 +189,17 @@
 
             <h2 id="changelog">Changelog</h2>
 
-            <h3 id="version">v1.2.0 > 2020-07-17</h3>
+            <h3 id="version">v1.3.0 > 2020-07-22</h3>
 
             <ul>
                 <li>
-                    Reorganize text boxes
+                    Include Github buttons
                 </li>
                 <li>
-                    Update project information
+                    Enable API-Guided Jawi Transliteration
+                </li>
+                <li>
+                    Restructure project page layout
                 </li>
             </ul>
 
@@ -181,7 +215,7 @@
                     <br />
                     All Rights Reserved to Dr Janudin Sardi (UiTM)
                     <br />
-                    Last Update: July 17<sup>th</sup>, 2020
+                    Last Update: July 22<sup>th</sup>, 2020
                 </small>
             </p>
         </footer>
@@ -191,13 +225,17 @@
     ================================================== -->
 
     <script src="Scripts/Site.min.js"></script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"
-            integrity="sha256-dsOXGNHAo/syFnazt+KTBsCQeRmlcW1XKL0bCK4Baec=" crossorigin="anonymous">
+        integrity="sha256-dsOXGNHAo/syFnazt+KTBsCQeRmlcW1XKL0bCK4Baec=" crossorigin="anonymous">
     </script>
-    <script src="Scripts/Functions.min.js"></script>
+    <script src="Scripts/Functions.js"></script>
     <script src="Scripts/Charset.js"></script>
 </body>
 </html>
